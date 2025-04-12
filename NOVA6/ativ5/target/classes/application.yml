@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: democrud
+  data:
+    mongodb:
+    #   uri: mongodb://localhost:27017/testdb # Define a URI de conexão para o banco MongoDB local na porta 27017.
+        uri: mongodb+srv://carlososawabr:dgqgJ9inUmA2Hpas@cluster0.sddzm.mongodb.net/democrud?retryWrites=true&w=majority&appName=Cluster0
