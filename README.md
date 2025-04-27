@@ -1,5 +1,5 @@
 # Arquitetura de Aplicações Web
-## Acesso direto às atividades:
+## Acesso direto às ATIVIDADES:
 ### Prática 01 - Arquitetura de Microsserviços
 <a href="https://github.com/CarlosEOsawaC/Arquitetura-de-Aplicacoes-Web/blob/main/NOVA/demo/src/main/java/com/example/demo/DemoApplication.java" target="_blank">Código do exercício</a>
 ### Pratica 03 - Persistência de dados - SQL
@@ -8,3 +8,6 @@
 MariaDB: <a href="https://github.com/CarlosEOsawaC/Arquitetura-de-Aplicacoes-Web/tree/main/NOVA6/ativ4/src/main" target="_blank">Códigos do exercício</a>
 
 MongoDB: <a href="https://github.com/CarlosEOsawaC/Arquitetura-de-Aplicacoes-Web/tree/main/NOVA6/ativ5/src/main" target="_blank">Códigos do exercício</a>
+## Acesso direto às AVALIAÇÕES:
+### Avaliação 01 - Persistência de Dados com Spring Boot
+<a href="https://github.com/CarlosEOsawaC/Arquitetura-de-Aplicacoes-Web/tree/main/prova" target="_blank">Acesso à avaliação</a>
