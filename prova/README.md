@@ -13,3 +13,5 @@ Para começar o projeto entre no Visual Studio Code e pressione as teclas <code>
 - Spring Web
 - Lombok
 - Spring Boot DevTools
+## Estrutura do projeto e relacionamento entre as entidades:
+O projeto foi desenvolvido com base no relacionamento entre as entidades: Produto e Categoria (Many-to-One)
