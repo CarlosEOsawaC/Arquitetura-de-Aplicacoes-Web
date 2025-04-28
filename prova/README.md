@@ -14,4 +14,20 @@ Para começar o projeto entre no Visual Studio Code e pressione as teclas <code>
 - Lombok
 - Spring Boot DevTools
 ## Estrutura do projeto e relacionamento entre as entidades:
-O projeto foi desenvolvido com base no relacionamento entre as entidades: Produto e Categoria (Many-to-One)
+O projeto foi desenvolvido com base no relacionamento entre as entidades: Produto e Categoria (Many-to-One).
+
+<img align="center" src="https://github.com/CarlosEOsawaC/Arquitetura-de-Aplicacoes-Web/blob/main/Img%20AAW%20README/ProdutoCategoria.png"/>
+
+## Endpoints
+### Produto (Product)
+- Get /products: Lista todos os produtos.
+- Get /products/{id}: Busca um produto por ID.
+- Post /products: Adiciona um novo produto.
+- Put /products/{id}: Atualiza um produto existente.
+- Delete /products/{id}: Remove um produto por ID.
+### Categoria (Category)
+- Get /categories: Lista todos as categorias.
+- Get /categories/{id}: Busca uma categoria por ID.
+- Post /categories: Adiciona uma nova categoria.
+- Put /categories/{id}: Atualiza uma categoria existente.
+- Delete /categories/{id}: Remove uma categoria por ID.
