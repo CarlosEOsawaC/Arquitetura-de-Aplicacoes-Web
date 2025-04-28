@@ -13,11 +13,38 @@ Para começar o projeto entre no Visual Studio Code e pressione as teclas <code>
 - Spring Web
 - Lombok
 - Spring Boot DevTools
-## Estrutura do projeto e relacionamento entre as entidades:
+##  Relacionamento entre as entidades:
 O projeto foi desenvolvido com base no relacionamento entre as entidades: Produto e Categoria (Many-to-One).
 
 <img align="center" src="https://github.com/CarlosEOsawaC/Arquitetura-de-Aplicacoes-Web/blob/main/Img%20AAW%20README/ProdutoCategoria.png"/>
 
+## Estrutura do projeto
+```
+spring-boot-crud
+├── src
+│   ├── main
+│   │   ├── java
+│   │   │   └── com
+│   │   │       └── example
+│   │   │           └── prova
+│   │   │               ├── ProvaApplication.java
+│   │   │               ├── controllers
+│   │   │               │   ├── CategoryController.java
+│   │   │               │   └── ProductController.java
+│   │   │               ├── models
+│   │   │               │   ├── Category.java
+│   │   │               │   └── Product.java
+│   │   │               ├── repositories
+│   │   │               │   ├── CategoryRepository.java
+│   │   │               │   └── ProductRepository.java
+│   │   │               └── services
+│   │   │                   ├── CategoryService.java
+│   │   │                   └── ProductService.java
+│   │   └── resources
+│   │       └── application.yml
+├── pom.xml
+└── README.md
+```
 ## Endpoints
 ### Produto (Product)
 - Get /products: Lista todos os produtos.
