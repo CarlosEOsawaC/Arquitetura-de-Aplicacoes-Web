@@ -3,7 +3,7 @@
 Este projeto é sobre a construção de uma API Spring Boot que é o coração de uma autenticação. Ela é responsável por gerar tokens JWT para usuários que fizerem login e por validar esses mesmos tokens para proteger seus próprios recursos.
 ## Extensões e outras tecnologias
 ### Extensões
-Esse projeto foi desenvolvido no <a href="https://code.visualstudio.com/" target="_blank">Visual Studio Code</a>. Para desenvolvê-lo e testá-lo foi necessário instalar as seguintes extensões:
+Esse projeto foi desenvolvido no <a href="https://code.visualstudio.com/" target="_blank">Visual Studio Code</a>. Para desenvolvê-lo foi necessário instalar as seguintes extensões:
 - Spring Boot Extension Pack
 - Extension Pack for Java
 - Lombok Annotations Support for VS Code
