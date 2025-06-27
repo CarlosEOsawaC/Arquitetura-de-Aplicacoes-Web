@@ -11,7 +11,7 @@ Esse projeto foi desenvolvido no <a href="https://code.visualstudio.com/" target
 O JMeter é essencial pra simular muitos usuários e requisições (testes de carga), avaliando o desempenho da API.
 
 <a href="https://jmeter.apache.org/download_jmeter.cgi" target="_blank">Apache JMeter Downloads</a>
-## Dependências e início do projeto
+## Dependências
 Pra começar, adicione as dependências essenciais no seu <code>pom.xml</code>.
 - <code>spring-boot-starter-web</code>: 🌐 Pra construir suas APIs RESTful.
   - <a href="https://docs.spring.io/spring-boot/reference/web/index.html" target="_blank">Documentação Oficial Spring Web</a>
