@@ -31,3 +31,41 @@ Pra começar, adicione as dependências essenciais no seu <code>pom.xml</code>.
   - <a href="https://projectlombok.org/features/" target="_blank">Documentação Oficial Lombok</a>
 - <code>org.springframework.boot:spring-boot-starter-test</code>: ✅ Inclui JUnit 5 e Mockito, essenciais pra testes.
   - <a href="https://docs.spring.io/spring-boot/reference/testing/index.html#testing" target="_blank">Documentação Oficial Spring Boot Testing</a>
+## Estrutura do Projeto
+```
+authserver
+├── jmeter-tests
+│   └── login_stress_test.jmx
+├── src
+│   ├── main
+│   │   ├── java
+│   │   │   └── com
+│   │   │       └── example
+│   │   │           └── authserver
+│   │   │               ├── AuthserverApplication.java
+│   │   │               ├── config
+│   │   │               │   ├── SecurityConfig.java
+│   │   │               │   └── SwaggerConfig.java
+│   │   │               ├── controller
+│   │   │               │   ├── AuthController.java
+│   │   │               │   └── TestProtectedController.java
+│   │   │               ├── model
+│   │   │               │   └── User.java
+│   │   │               ├── repository
+│   │   │               │   └── UserRepository.java
+│   │   │               └── service
+│   │   │                   ├── AuthService.java
+│   │   │                   └── JwtService.java
+│   │   └── resources
+│   │       ├── application.properties
+│   │       └── application.yml
+│   └── test
+│       └── java
+│           └── com
+│               └── example
+│                   └── authserver
+│                       ├── AuthIntegrationTests.java
+│                       └── AuthserverApplicationTests.java
+├── pom.xml
+└── README.md
+```
