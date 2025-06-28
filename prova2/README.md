@@ -125,10 +125,26 @@ prova2
      - Escolha um nome significativo para o arquivo (ex: <code>login_stress_test.jmx</code>) e salve-o em um local acessível dentro do seu projeto (por exemplo, crie uma pasta <code>jmeter-tests</code> na raiz do seu repositório).
      - Este arquivo <code>.jmx</code> é o que você deverá versionar no GitHub.
 
+## Como clonar e executar o projeto
+### Clonar
+#### No github
+- Copie a URL (exemplo: <code>https://github.com/usuario/repositorio.git</code>).
+#### No terminal ou prompt de comando do computador
+1. Vá até a pasta onde quer colocar o projeto:
+```
+cd Documents/meus-projetos
+```
+2. Cole o comando com a URL copiada do GitHub:
+```
+git clone https://github.com/usuario/repositorio.git
+```
+Lembre-se de certificar-se que todas as dependências necessárias para o projeto estão presentes no seu <code>pom.xml</code>.
+### Executar
+- Para executar o projeto utilize: <code>mvn spring-boot:run</code>.
 ## Swagger
 É uma interface web interativa que roda localmente (no seu navegador) para visualizar e testar APIs REST.
   - Para acessar o Swagger:
-    - Execute o projeto (<code>mvn spring-boot:run</code>).
+    - Execute o projeto (o projeto precisa estar em execução): <code>mvn spring-boot:run</code>.
     - Acesse no navegador: http://localhost:8080/swagger-ui/index.html#/
 
 <img align="center" src="https://github.com/CarlosEOsawaC/Arquitetura-de-Aplicacoes-Web/blob/main/Img%20AAW%20README/Swagger%20Local.png"/>
