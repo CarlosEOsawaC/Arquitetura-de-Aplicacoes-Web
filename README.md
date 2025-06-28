@@ -16,3 +16,5 @@ MongoDB: <a href="https://github.com/CarlosEOsawaC/Arquitetura-de-Aplicacoes-Web
 ## Acesso direto às AVALIAÇÕES:
 ### Avaliação 01 - Persistência de Dados com Spring Boot
 <a href="https://github.com/CarlosEOsawaC/Arquitetura-de-Aplicacoes-Web/tree/main/prova" target="_blank">Acesso à avaliação</a>
+### Avaliação 02 - API de Autenticação e Autorização JWT (AV2)
+<a href="https://github.com/CarlosEOsawaC/Arquitetura-de-Aplicacoes-Web/tree/main/prova2" target="_blank">Acesso à avaliação</a>
