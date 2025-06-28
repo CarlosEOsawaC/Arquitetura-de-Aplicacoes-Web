@@ -124,3 +124,11 @@ prova2
      - Para salvar seu plano de teste e os elementos que você configurou (incluindo as configurações de Thread Group e HTTP Request), vá em <code>File</code> > <code>Save</code> (ou <code>Ctrl + S</code>).
      - Escolha um nome significativo para o arquivo (ex: <code>login_stress_test.jmx</code>) e salve-o em um local acessível dentro do seu projeto (por exemplo, crie uma pasta <code>jmeter-tests</code> na raiz do seu repositório).
      - Este arquivo <code>.jmx</code> é o que você deverá versionar no GitHub.
+
+## Swagger
+É uma interface web interativa que roda localmente (no seu navegador) para visualizar e testar APIs REST.
+  - Para acessar o Swagger:
+    - Execute o projeto (<code>mvn spring-boot:run</code>).
+    - Acesse no navegador: http://localhost:8080/swagger-ui/index.html#/
+
+<img align="center" src="https://github.com/CarlosEOsawaC/Arquitetura-de-Aplicacoes-Web/blob/main/Img%20AAW%20README/Swagger%20Local.png"/>
