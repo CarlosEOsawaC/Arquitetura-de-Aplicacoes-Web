@@ -16,27 +16,27 @@ O Docker é uma plataforma de contenção de software que permite empacotar uma 
 
 <a href="https://www.docker.com/" target="_blank">Docker</a>
 ## Dependências
-🌐 <a href="" target="_blank">Spring Boot Starter Web</a> – Construção de APIs RESTful.
+🌐 <a href="https://spring.io/guides/gs/rest-service" target="_blank">Spring Boot Starter Web</a> – Construção de APIs RESTful.
 
-🔒 <a href="" target="_blank">Spring Boot Starter Security</a> – Autenticação e autorização.
+🔒 <a href="https://spring.io/projects/spring-security" target="_blank">Spring Boot Starter Security</a> – Autenticação e autorização.
 
-🔑 <a href="" target="_blank">Spring Boot Starter OAuth2 Resource Server</a> – Validação de tokens JWT.
+🔑 <a href="https://docs.spring.io/spring-security/reference/servlet/oauth2/resource-server/jwt.html" target="_blank">Spring Boot Starter OAuth2 Resource Server</a> – Validação de tokens JWT.
 
-🗄️ <a href="" target="_blank">Spring Boot Starter Data JPA</a> – Persistência de dados.
+🗄️ <a href="https://spring.io/projects/spring-data-jpa" target="_blank">Spring Boot Starter Data JPA</a> – Persistência de dados.
 
-💾 <a href="" target="_blank">H2 Database</a> – Banco de dados em memória para testes.
+💾 <a href="https://www.h2database.com/html/main.html" target="_blank">H2 Database</a> – Banco de dados em memória para testes.
 
-📚 <a href="" target="_blank">Springdoc OpenAPI</a> – Geração automática da documentação via Swagger UI.
+📚 <a href="https://springdoc.org/" target="_blank">Springdoc OpenAPI</a> – Geração automática da documentação via Swagger UI.
 
-🛠️ <a href="" target="_blank">Spring Boot DevTools</a> – Ferramentas para desenvolvimento ágil.
+🛠️ <a href="https://docs.spring.io/spring-boot/reference/using/devtools.html#using.devtools" target="_blank">Spring Boot DevTools</a> – Ferramentas para desenvolvimento ágil.
 
-🍬 <a href="" target="_blank">Lombok</a> – Redução de código repetitivo.
+🍬 <a href="https://projectlombok.org/" target="_blank">Lombok</a> – Redução de código repetitivo.
 
-✅ <a href="" target="_blank">Spring Boot Starter Test</a> – JUnit 5 e Mockito para testes unitários.
+✅ <a href="https://docs.spring.io/spring-boot/reference/testing/index.html#testing" target="_blank">Spring Boot Starter Test</a> – JUnit 5 e Mockito para testes unitários.
 
-🩺 <a href="" target="_blank">Spring Boot Actuator</a> – Monitoramento e métricas da API.
+🩺 <a href="https://docs.spring.io/spring-boot/reference/actuator/index.html" target="_blank">Spring Boot Actuator</a> – Monitoramento e métricas da API.
 
-📊 <a href="" target="_blank">Prometheus</a> – Coleta de métricas de uso da API em tempo real.
+📊 <a href="https://prometheus.io/docs/introduction/overview/" target="_blank">Prometheus</a> – Coleta de métricas de uso da API em tempo real.
 ## Estrutura do Projeto
 ```
 prova2
