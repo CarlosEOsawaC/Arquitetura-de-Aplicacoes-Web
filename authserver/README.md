@@ -69,6 +69,27 @@ authserver
 ├── pom.xml
 └── README.md
 ```
+
+## Como clonar e executar o projeto
+### Clonar
+#### No github
+- Copie a URL (exemplo: <code>https://github.com/usuario/repositorio.git</code>).
+#### No terminal ou prompt de comando do computador
+1. Vá até a pasta onde quer colocar o projeto:
+```
+cd Documents/meus-projetos
+```
+2. Cole o comando com a URL copiada do GitHub:
+```
+git clone https://github.com/usuario/repositorio.git
+```
+Lembre-se de certificar-se que todas as dependências necessárias para o projeto estão presentes no seu <code>pom.xml</code>.
+### Executar
+- No Maven execute o projeto com:
+```
+mvn spring-boot:run
+```
+
 ## Testes de carga com JMeter
 ### Instalação do JMeter
   1. Baixar: acesse <a href="https://jmeter.apache.org/download_jmeter.cgi" target="_blank">Apache JMeter Downloads</a>
