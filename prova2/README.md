@@ -83,7 +83,35 @@ prova2
 ├── pom.xml
 └── README.md
 ```
+## Como clonar e executar o projeto
+### Clonar
+#### No github
+- Copie a URL (exemplo: <code>https://github.com/usuario/repositorio.git</code>).
+#### No terminal ou prompt de comando do computador
+1. Vá até a pasta onde quer colocar o projeto:
+```
+cd Documents/meus-projetos
+```
+2. Cole o comando com a URL copiada do GitHub:
+```
+git clone https://github.com/usuario/repositorio.git
+```
+Lembre-se de certificar-se que todas as dependências necessárias para o projeto estão presentes no seu <code>pom.xml</code>.
+### Executar
+- No Maven execute o projeto com:
+```
+mvn spring-boot:run
+```
+## Swagger
+É uma interface web interativa que roda localmente (no seu navegador) para visualizar e testar APIs REST.
+  - Para acessar o Swagger:
+    - Execute o projeto (o projeto precisa estar em execução): <code>mvn spring-boot:run</code>.
+    - Acesse no navegador: http://localhost:8080/swagger-ui/index.html#/
+
+<img align="center" src="https://github.com/CarlosEOsawaC/Arquitetura-de-Aplicacoes-Web/blob/main/Img%20AAW%20README/Swagger%20Local.png"/>
+
 ## Testes de carga com JMeter
+Testes de carga com Apache JMeter servem para avaliar o desempenho de um sistema (como uma API, site ou aplicativo) quando vários usuários acessam ao mesmo tempo.
 ### Instalação do JMeter
   1. Baixar: acesse <a href="https://jmeter.apache.org/download_jmeter.cgi" target="_blank">Apache JMeter Downloads</a>
   2. Extrair: Descompacte o arquivo.
@@ -124,27 +152,3 @@ prova2
      - Para salvar seu plano de teste e os elementos que você configurou (incluindo as configurações de Thread Group e HTTP Request), vá em <code>File</code> > <code>Save</code> (ou <code>Ctrl + S</code>).
      - Escolha um nome significativo para o arquivo (ex: <code>login_stress_test.jmx</code>) e salve-o em um local acessível dentro do seu projeto (por exemplo, crie uma pasta <code>jmeter-tests</code> na raiz do seu repositório).
      - Este arquivo <code>.jmx</code> é o que você deverá versionar no GitHub.
-
-## Como clonar e executar o projeto
-### Clonar
-#### No github
-- Copie a URL (exemplo: <code>https://github.com/usuario/repositorio.git</code>).
-#### No terminal ou prompt de comando do computador
-1. Vá até a pasta onde quer colocar o projeto:
-```
-cd Documents/meus-projetos
-```
-2. Cole o comando com a URL copiada do GitHub:
-```
-git clone https://github.com/usuario/repositorio.git
-```
-Lembre-se de certificar-se que todas as dependências necessárias para o projeto estão presentes no seu <code>pom.xml</code>.
-### Executar
-- Para executar o projeto utilize: <code>mvn spring-boot:run</code>.
-## Swagger
-É uma interface web interativa que roda localmente (no seu navegador) para visualizar e testar APIs REST.
-  - Para acessar o Swagger:
-    - Execute o projeto (o projeto precisa estar em execução): <code>mvn spring-boot:run</code>.
-    - Acesse no navegador: http://localhost:8080/swagger-ui/index.html#/
-
-<img align="center" src="https://github.com/CarlosEOsawaC/Arquitetura-de-Aplicacoes-Web/blob/main/Img%20AAW%20README/Swagger%20Local.png"/>
