@@ -1,5 +1,5 @@
 # Arquitetura de Aplicações Web
-Disciplina do 5º período dos cursos de ADS (Análise e Desenvolvimento de Sistemas) e Ciência da Computação na faculdade <a href="https://newtonpaiva.br/" target="_blank">Newton Paiva</a>.
+Disciplina do 5º período dos cursos de ADS (Análise e Desenvolvimento de Sistemas) e Ciência da Computação que eu cursei na faculdade <a href="https://newtonpaiva.br/" target="_blank">Newton Paiva</a>.
 ### Professor:
 <a href="https://github.com/LeonardoVieiraGuimaraes" target="_blank">Leonardo Vieira Guimarães</a>
 
